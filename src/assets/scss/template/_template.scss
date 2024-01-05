@@ -1,0 +1,27 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+  .header-banner{
+    margin-bottom: 2px solid black;
+  }
+  .button{
+    width:150px;
+    border-radius: 4px;
+    background: rgb(0, 87, 177);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .button:hover{
+    color: rgb(241, 68, 34);
+  }
+}
